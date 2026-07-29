@@ -52,7 +52,7 @@ public class TDAArbol<E> implements Tree<E>{
 		return resultado;
 	}
 
-	private TNodo<E> checkPosition(Position<E> v) {
+	protected  TNodo<E> checkPosition(Position<E> v) {
 		TNodo<E> resultado = null;
 		if( v == null) {throw new InvalidPositionException("Posicion es nula");}
 		if( this.isEmpty()) {throw new InvalidPositionException("El árbol está vacío");}

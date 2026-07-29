@@ -13,8 +13,8 @@ public class ListaDoblementeEnlazada<E> implements PositionList<E> {
 	
 	public ListaDoblementeEnlazada() {
 		this.cantidad = 0;
-		this.lista = new DNode(null);
-		this.ultimo = new DNode(null);
+		this.lista = new DNode<>(null);
+		this.ultimo = new DNode<>(null);
 		this.lista.setSiguiente(this.ultimo);
 		this.ultimo.setAnterior(this.lista);
 		
@@ -99,7 +99,7 @@ public class ListaDoblementeEnlazada<E> implements PositionList<E> {
 	}
 	
 	protected void agregarEnElMedio(DNode<E> anterior, DNode<E> siguiente, E elemento) {
-		DNode<E> nuevoNodo = new DNode(elemento);
+		DNode<E> nuevoNodo = new DNode<>(elemento);
 		nuevoNodo.setSiguiente(siguiente);
 		nuevoNodo.getSiguiente().setAnterior(nuevoNodo);
 		anterior.setSiguiente(nuevoNodo);

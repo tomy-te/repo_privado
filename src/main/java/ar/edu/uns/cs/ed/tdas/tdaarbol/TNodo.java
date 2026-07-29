@@ -40,7 +40,13 @@ public class TNodo<E> implements Position<E>{
 	public PositionList<TNodo<E>> Hijos(){
 		return hijos;
 	}
-	
+	/**
+	 * Setea la lista de hijos del nodo actual.
+	 * @param h: lista de hijos.
+	 */
+	public void setHijos(PositionList<TNodo<E>> h){
+		hijos = h;
+	}
 	/**
 	 * Setea el padre del nodo actual.
 	 * @param p: nodo padre.
