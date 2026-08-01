@@ -8,8 +8,8 @@ import ar.edu.uns.cs.ed.tdas.excepciones.InvalidPositionException;
 import java.util.Iterator;
 
 public class ArbolBinario<E> implements BinaryTree<E> {
-        private BTNodo<E> raiz;
-    private int size;
+    protected BTNodo<E> raiz;
+    protected int size;
     
     public ArbolBinario() {
         this.raiz = null;
@@ -17,7 +17,7 @@ public class ArbolBinario<E> implements BinaryTree<E> {
     }
 
 
-    private BTNodo<E> checkPosition (Position<E> p) {
+    protected  BTNodo<E> checkPosition (Position<E> p) {
 		BTNodo<E> resultado = null;
 		if (p == null) {
 			throw new InvalidPositionException("Posición nula.");
