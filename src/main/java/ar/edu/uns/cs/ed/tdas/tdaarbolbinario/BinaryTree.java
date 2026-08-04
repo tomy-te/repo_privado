@@ -75,6 +75,11 @@ public interface BinaryTree<E> extends Tree<E>
 	 */
 	public void attach(Position<E> v, BinaryTree<E> T1, BinaryTree<E> T2);
 	
+	/**
+	 * Elimina una posicion de un arbol binario. Si la posición tiene un hijo, el hijo se convierte en hijo del padre de la posición eliminada.
+	 * @param v Posición a eliminar.
+	 */
+	public void remove(Position<E> v);
 }
 
 	

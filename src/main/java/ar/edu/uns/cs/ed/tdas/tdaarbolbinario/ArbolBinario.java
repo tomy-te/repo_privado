@@ -205,6 +205,29 @@ public class ArbolBinario<E> implements BinaryTree<E> {
     public int size() {
         return this.size;
     }
+
+    @Override
+    public void remove(Position<E> v) {
+        BTNodo<E> n = checkPosition(v);
+        if (n.getLeft()!=null && n.getRight()!=null) {
+            throw new InvalidOperationException("Error: La posición tiene dos hijos.");
+        }
+        BTNodo<E> hijo = (n.getLeft()!=null) ? n.getLeft() : n.getRight();
+        if (hijo!=null) {
+            hijo.setParent(n.getParent());
+        }
+        if (n==this.raiz) {
+            this.raiz = hijo;
+        } else {
+            BTNodo<E> padre = n.getParent();
+            if (padre.getLeft()==n) {
+                padre.setLeft(hijo);
+            } else {
+                padre.setRight(hijo);
+            }
+        }
+        size--;
+    }
     
 }
     
