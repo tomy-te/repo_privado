@@ -44,8 +44,8 @@ public class TNodo<E> implements Position<E>{
 	 * Setea la lista de hijos del nodo actual.
 	 * @param h: lista de hijos.
 	 */
-	public void setHijos(PositionList<TNodo<E>> h){
-		hijos = h;
+	public void vaciarHijos(){
+		hijos = new ListaDoblementeEnlazada<>();
 	}
 	/**
 	 * Setea el padre del nodo actual.
