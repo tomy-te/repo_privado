@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.Ejercicios;
+package ar.edu.uns.cs.ed.tdas.ejercicios;
 
 import ar.edu.uns.cs.ed.tdas.tdagrafo.Edge;
 import ar.edu.uns.cs.ed.tdas.tdagrafo.Graph;

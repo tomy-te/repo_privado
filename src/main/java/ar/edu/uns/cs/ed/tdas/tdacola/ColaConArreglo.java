@@ -9,6 +9,7 @@ public class ColaConArreglo<E> implements Queue<E>{
 	protected int fondo;
 	protected int cantidad;
 	
+	@SuppressWarnings("unchecked")
 	public ColaConArreglo() {
 		arreglo= (E[]) new Object [10]; 
 		frente=0;
@@ -42,6 +43,7 @@ public class ColaConArreglo<E> implements Queue<E>{
 		cantidad++;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public void agrandarArreglo() {
 		int nuevoTamano= arreglo.length*2;
 		E[] nuevo= (E []) new Object [nuevoTamano];
