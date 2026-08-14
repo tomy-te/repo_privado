@@ -67,6 +67,7 @@ public class GrafoNoD<V, E> implements Graph<V, E>{
 		return arco;
 	}
 	
+	@SuppressWarnings("unchecked")
 	private Vertice<V, E> checkVertex(Vertex<V> v) {
 		Vertice<V, E> resultado = null;
 		if( this.listadeVertices.size() == 0) { throw new InvalidPositionException(null); }
