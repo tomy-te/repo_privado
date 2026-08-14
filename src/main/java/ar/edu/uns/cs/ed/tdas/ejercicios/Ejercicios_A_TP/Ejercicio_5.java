@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.ejercicios.Ejercicios_A_TP;
+package ar.edu.uns.cs.ed.tdas.ejercicios.ejercicios_A_TP;
 
 import ar.edu.uns.cs.ed.tdas.tdaarbol.Tree;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.ejercicios.Ejercicios_A_TP;
+package ar.edu.uns.cs.ed.tdas.ejercicios.ejercicios_A_TP;
 import ar.edu.uns.cs.ed.tdas.Position;
 import ar.edu.uns.cs.ed.tdas.excepciones.InvalidOperationException;
 import ar.edu.uns.cs.ed.tdas.tdaarbol.Tree;

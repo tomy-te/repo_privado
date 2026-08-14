@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.ejercicios.Ejercicios_AB_TP;
+package ar.edu.uns.cs.ed.tdas.ejercicios.ejercicios_AB_TP;
 
 import ar.edu.uns.cs.ed.tdas.tdaarbolbinario.ArbolBinario;
 import ar.edu.uns.cs.ed.tdas.tdaarbolbinario.BTNodo;

@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.ejercicios.Ejercicios_LM_AB;
+package ar.edu.uns.cs.ed.tdas.ejercicios.ejercicios_LM_AB;
 
 import ar.edu.uns.cs.ed.tdas.Position;
 import ar.edu.uns.cs.ed.tdas.excepciones.EmptyTreeException;

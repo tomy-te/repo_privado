@@ -1,4 +1,4 @@
-package ar.edu.uns.cs.ed.tdas.ejercicios.Ejercicios_Parciales;
+package ar.edu.uns.cs.ed.tdas.ejercicios.ejercicios_Parciales;
 
 import ar.edu.uns.cs.ed.tdas.Position;
 import ar.edu.uns.cs.ed.tdas.tdaarbolbinario.BinaryTree;
